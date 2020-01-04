@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "niroj test portfolio",
   "main": "index.js",
+  "homepage": "https://nirojshrestha019.github.io/my_portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Niroj Shrestha",
   "license": "MIT",

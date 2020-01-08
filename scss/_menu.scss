@@ -8,10 +8,11 @@
   @include easeOut;
 
   .btn-line {
+    // color: $secondary-color;
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: set-text-color($primary-color);
+    background: $secondary-color;
     @include easeOut;
   }
 

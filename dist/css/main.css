@@ -10,55 +10,55 @@
     height: 3px;
     margin: 0 0 5px 0;
     background: #189bd8;
-    -webkit-animation: glowing 1500ms infinite;
-    -moz-animation: glowing 1500ms infinite;
-    -o-animation: glowing 1500ms infinite;
-    animation: glowing 1500ms infinite;
+    -webkit-animation: glowing 500ms infinite;
+    -moz-animation: glowing 500ms infinite;
+    -o-animation: glowing 500ms infinite;
+    animation: glowing 500ms infinite;
     transition: all 0.5s ease-out; }
 
 @-webkit-keyframes glowing {
   0% {
     background-color: #b20000;
-    -webkit-box-shadow: 0 0 3px #b20000; }
+    -webkit-box-shadow: 0 0 4px #b20000; }
   50% {
     background-color: #ff0000;
-    -webkit-box-shadow: 0 0 40px #ff0000; }
+    -webkit-box-shadow: 0 0 50px #ff0000; }
   100% {
     background-color: #b20000;
-    -webkit-box-shadow: 0 0 3px #b20000; } }
+    -webkit-box-shadow: 0 0 4px #b20000; } }
 
 @-moz-keyframes glowing {
   0% {
     background-color: #b20000;
-    -moz-box-shadow: 0 0 3px #b20000; }
+    -moz-box-shadow: 0 0 4px #b20000; }
   50% {
     background-color: #ff0000;
-    -moz-box-shadow: 0 0 40px #ff0000; }
+    -moz-box-shadow: 0 0 50px #ff0000; }
   100% {
     background-color: #b20000;
-    -moz-box-shadow: 0 0 3px #b20000; } }
+    -moz-box-shadow: 0 0 4px #b20000; } }
 
 @-o-keyframes glowing {
   0% {
     background-color: #b20000;
-    box-shadow: 0 0 3px #b20000; }
+    box-shadow: 0 0 4px #b20000; }
   50% {
     background-color: #ff0000;
-    box-shadow: 0 0 40px #ff0000; }
+    box-shadow: 0 0 50px #ff0000; }
   100% {
     background-color: #b20000;
-    box-shadow: 0 0 3px #b20000; } }
+    box-shadow: 0 0 4px #b20000; } }
 
 @keyframes glowing {
   0% {
     background-color: #b20000;
-    box-shadow: 0 0 3px #b20000; }
+    box-shadow: 0 0 4px #b20000; }
   50% {
     background-color: #ff0000;
-    box-shadow: 0 0 40px #ff0000; }
+    box-shadow: 0 0 50px #ff0000; }
   100% {
     background-color: #b20000;
-    box-shadow: 0 0 3px #b20000; } }
+    box-shadow: 0 0 4px #b20000; } }
   .menu-btn.close {
     transform: rotate(180deg); }
     .menu-btn.close .btn-line:nth-child(1) {

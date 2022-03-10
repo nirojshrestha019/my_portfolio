@@ -196,6 +196,12 @@ header {
 .text-secondary {
   color: #189bd8; }
 
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }

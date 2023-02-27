@@ -202,6 +202,9 @@ header {
 .left {
   float: left; }
 
+.underline {
+  text-decoration: underline; }
+
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }

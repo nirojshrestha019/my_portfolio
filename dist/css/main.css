@@ -184,11 +184,6 @@ h5 {
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
 
-.section-heading {
-  margin-bottom: 0.1rem;
-  padding: 0.1rem 0.1rem;
-  background: rgba(73, 73, 73, 0.5); }
-
 a {
   color: #fff;
   text-decoration: none; }
@@ -228,7 +223,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "section-heading section-heading section-heading" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;

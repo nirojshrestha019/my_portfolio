@@ -34,12 +34,6 @@ h5 {
   }
 }
 
-.section-heading {
-  margin-bottom: 0.1rem;
-  padding: 0.1rem 0.1rem;
-  background: rgba(lighten($primary-color, 2), 0.5);
-}
-
 a {
   color: #fff;
   text-decoration: none;
@@ -98,7 +92,6 @@ main {
   grid-gap: 30px;
   grid-template-areas:
     "bioimage bio bio"
-    "section-heading section-heading section-heading"
     "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
 

@@ -1,169 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-      crossorigin="anonymous"
-    />
 
-    <link rel="stylesheet" href="css/main.css" />
-    <title>About Me</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
 
-  <body>
-    <header>
-      <div class="menu-btn">
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
+  <link rel="stylesheet" href="css/main.css" />
+  <title>About Me</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="about.html" class="nav-link">
+            About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">
+            My Work
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            How To Reach Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="about">
+    <h1 class="lg-heading">
+      About
+      <span class="text-secondary">Me</span>
+    </h1>
+    <h2 class="sm-heading">
+      Let me tell you a few things...
+    </h2>
+    <div class="about-info">
+      <img src="img/portrait.jpg" alt="John Doe" class="bio-image" />
+
+      <div class="bio">
+        <h3 class="text-secondary">BIO</h3>
+        <p>
+          Seasoned, forward-looking Software Engineer with 4+ years of background in creating and executing innovative
+          software solutions
+          to enhance business productivity. Highly experienced in all aspects of the software development lifecycle and
+          end-to-end project management,
+          from concept through to development and delivery. Consistently recognized as a hands-on and competent team
+          member, skilled at coordinating
+          cross-functional teams in a fast-paced, deadline-driven environment to steer timely project completion.
+        </p>
+      </div>
+      <div class="job job-1">
+        <h2>Software Engineer</h2>
+        <a href="https://www.resmed.com/en-us/" target="_blank"><span
+            class="left text-secondary underline">ResMed</span></a>
+        <span class="right text-secondary">05/2021 – Present</span><br>
+        <span class="left text-secondary">Halifax, Nova Scotia</span>​
+        <p>
+          Technologies: TypeScript • Java • Node.js • Python • Bash • AWS (Amazon Web Services) • Terraform • Serverless
+          • Webpack • FHIR • Elastic Search • JWT Oauth 2.0 • Docker • Okta • PagerDuty • Angular • Hugo • Git • Postman
+          • J-Meter
+          <li>
+            Developed serverless applications using AWS lambdas to provide standard interoperability between healthcare
+            systems with FHIR APIs, and integrated Okta for OAuth2 OpenID Connect authentication and attribute-based
+            access control authorization. Wrote J-Meter and Postman test scripts for functional and end-to-end testing
+            and applied Test Driven Development.
+          </li>
+          <li>
+            Created CI/CD pipelines to automate microservices build, and end-to-end deployments on AWS environments.
+            Provisioned serverless cloud application infrastructures using Terraform, Serverless, and CloudFormation,
+            resulting in a 35% increase in delivery speed.
+          </li>
+          <li>
+            Developed FHIR profile implementation guide (clinical information models) using FHIR Shorthand (FSH) and
+            performed security assurance and code reviews to ensure internal and industry compliance standards were met.
+          </li>
+          <li>
+            Negotiated and integrated mend scan for detecting security vulnerabilities and compliance data related to
+            open-source components of developed packages in GitHub actions.
+          </li>
+          <li>
+            Integrated incident management tools like PagerDuty for 24x7 monitoring of serverless applications in the
+            production environment to centralize operations and ensure complete visibility across an organization’s
+            infrastructure. This helps in a faster escalation of incidents when needed, and a faster time to resolution.
+          </li>
+          <li>
+            Delivered a unified code base for each microservice that supports all the regions, commit to bi-weekly
+            iteration delivery deadlines and develop whole REST microservices, including implementation, unit tests,
+            test scripts, business owner acceptance, deployment, and production support.
+          </li>
+          <li>
+            Ensured compliance and mitigate risks by reviewing software documentation to guarantee technical accuracy,
+            compliance, and completeness. Also, participate in backlog refinement and sprint planning to ensure the team
+            meets its goals.
+          </li>
+          <li>
+            Worked with cross-functional teams to define requirements, create technical designs, and implement software
+            solutions that are scalable and highly available.
+          </li>
+          <li>
+            Worked in Agile and Scrum methodologies, and participated in sprint planning, stand-ups, and retrospective
+            meetings.
+          </li>
+        </p>
       </div>
 
-      <nav class="menu">
-        <div class="menu-branding">
-          <div class="portrait"></div>
-        </div>
-        <ul class="menu-nav">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">
-              Home
-            </a>
+      <div class="job job-2">
+        <h2>Software Engineer</h2>
+        <a href="https://growbydata.com/" target="_blank"><span class="left text-secondary underline">GrowByData
+            Services</span></a>
+        <span class="right text-secondary">07/2017 - 08/2019</span><br>
+        <span class="left text-secondary">Kathmandu, Nepal</span>​
+        <p>
+          Technologies: Python • SQL • Bash • E-Commerce • Rest API • MongoDB
+          <li>
+            Successfully developed Data Exchange application that extracted client data provided through API and
+            manipulated it into a format accepted by various online marketing platforms, increasing customer sales by
+            12% and improved reporting performance by 20%. Implemented Rule Engine to support diﬀerent validation groups
+            imposed by various online marketing platforms and monitored the export process.
           </li>
-          <li class="nav-item current">
-            <a href="about.html" class="nav-link">
-              About Me
-            </a>
+          <li>
+            Analyzed user and system requirements and developed data migration tools to migrate customer data into
+            various e-commerce platforms reducing clients' monthly costs and improvising inventory management
+            experience.
           </li>
-          <li class="nav-item">
-            <a href="work.html" class="nav-link">
-              My Work
-            </a>
+          <li>
+            Developed and maintained the back-end applications and data management components. Improved processes,
+            resulting in a reduction of data loading time, by 40%. Enhanced ETL process, resulting in an increase in
+            data accuracy by 98%.
           </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">
-              How To Reach Me
-            </a>
+          <li>
+            Created tables, stored procedures, and SQL functions. Designed and optimized MySQL databases.
           </li>
-        </ul>
-      </nav>
-    </header>
-
-    <main id="about">
-      <h1 class="lg-heading">
-        About
-        <span class="text-secondary">Me</span>
-      </h1>
-      <h2 class="sm-heading">
-        Let me tell you a few things...
-      </h2>
-      <div class="about-info">
-        <img src="img/portrait.jpg" alt="John Doe" class="bio-image" />
-
-        <div class="bio">
-          <h3 class="text-secondary">BIO</h3>
-          <p>
-            Seasoned, forward-looking Software Engineer with 4+ years of background in creating and executing innovative software solutions 
-            to enhance business productivity. Highly experienced in all aspects of the software development lifecycle and end-to-end project management, 
-            from concept through to development and delivery. Consistently recognized as a hands-on and competent team member, skilled at coordinating 
-            cross-functional teams in a fast-paced, deadline-driven environment to steer timely project completion. 
-          </p>
-        </div>
-        <div class="job job-1">
-          <h2>Software Engineer</h2>
-          <a href="https://www.resmed.com/en-us/" target="_blank"><span class="left text-secondary underline">ResMed</span></a>
-          <span class="right text-secondary">05/2021 – Present</span><br>
-          <span class="left text-secondary">Halifax, Nova Scotia</span>​
-          <p>
-          Technologies: TypeScript • Java • Node.js • Python • Bash • AWS (Amazon Web Services) • Terraform • Serverless • Webpack • FHIR • Elastic Search • JWT Oauth 2.0 • Docker • Okta • PagerDuty • Angular • Hugo • Git • Postman • J-Meter
-            <li>
-              Developed serverless applications using AWS lambdas to provide standard interoperability between healthcare systems with FHIR APIs, and integrated Okta for OAuth2 OpenID Connect authentication and attribute-based access control authorization. Wrote J-Meter and Postman test scripts for functional and end-to-end testing and applied Test Driven Development.            
-            </li>
-            <li>
-              Created CI/CD pipelines to automate microservices build, and end-to-end deployments on AWS environments. Provisioned serverless cloud application infrastructures using Terraform, Serverless, and CloudFormation, resulting in a 35% increase in delivery speed.            
-            </li>
-            <li>
-              Developed FHIR profile implementation guide (clinical information models) using FHIR Shorthand (FSH) and performed security assurance and code reviews to ensure internal and industry compliance standards were met.            
-            </li>
-            <li>
-              Negotiated and integrated mend scan for detecting security vulnerabilities and compliance data related to open-source components of developed packages in GitHub actions.            
-            </li>
-            <li>
-              Integrated incident management tools like PagerDuty for 24x7 monitoring of serverless applications in the production environment to centralize operations and ensure complete visibility across an organization’s infrastructure. This helps in a faster escalation of incidents when needed, and a faster time to resolution.            
-            </li>
-            <li>
-              Delivered a unified code base for each microservice that supports all the regions, commit to bi-weekly iteration delivery deadlines and develop whole REST microservices, including implementation, unit tests, test scripts, business owner acceptance, deployment, and production support.            
-            </li>
-            <li>
-              Ensured compliance and mitigate risks by reviewing software documentation to guarantee technical accuracy, compliance, and completeness. Also, participate in backlog refinement and sprint planning to ensure the team meets its goals.            
-            </li>
-            <li>
-              Worked with cross-functional teams to define requirements, create technical designs, and implement software solutions that are scalable and highly available.            
-            </li>
-            <li>
-              Worked in Agile and Scrum methodologies, and participated in sprint planning, stand-ups, and retrospective meetings.            
-            </li>
-          </p>
-        </div>
-        
-        <div class="job job-2">
-          <h2>Software Engineer</h2>
-          <a href="https://growbydata.com/" target="_blank"><span class="left text-secondary underline">GrowByData Services</span></a>
-          <span class="right text-secondary">07/2017 - 08/2019</span><br>
-          <span class="left text-secondary">Kathmandu, Nepal</span>​
-          <p>
-            Technologies: Python • SQL • Bash • E-Commerce • Rest API • MongoDB 
-            <li>
-              Successfully developed Data Exchange application that extracted client data provided through API and manipulated it into a format accepted by various online marketing platforms, increasing customer sales by 12% and improved reporting performance by 20%. Implemented Rule Engine to support diﬀerent validation groups imposed by various online marketing platforms and monitored the export process. 
-            </li>
-            <li>
-              Analyzed user and system requirements and developed data migration tools to migrate customer data into various e-commerce platforms reducing clients' monthly costs and improvising inventory management experience.
-            </li>
-            <li>
-              Developed and maintained the back-end applications and data management components. Improved processes, resulting in a reduction of data loading time, by 40%. Enhanced ETL process, resulting in an increase in data accuracy by 98%.
-            </li>
-            <li>
-              Created tables, stored procedures, and SQL functions. Designed and optimized MySQL databases.            
-            </li>
-            <li>
-              Converted large SQL queries into stored procedures, improving reporting performance.
-            </li>
-            <li>
-              Worked with the QA team to resolve the defects as part of the Sprint tasks.
-            </li>
-          </p>
-        </div>
-
-        <div class="job job-3">
-          <h2>Research Assistant</h2>
-          <a href="https://aida.acadiau.ca/home.html" target="_blank"><span class="left text-secondary underline">Acadia Institute for Data Analytics</span></a>
-          <span class="right text-secondary">08/2020 - 08/2021</span><br>
-          <span class="left text-secondary">Wolfville, Nova Scotia</span>​
-          <p>
-            Technologies: Python • Image processing • Computer Vision • TensorFlow • Keras • Linux • Bash
-            <li>
-              Research and development in the field of apple yield prediction by using convolutional neural networks and tracking algorithms.           
-            </li>
-            <li>
-              Developed an application that provided consistent, accurate, and low-cost crop estimates using AI methods which helped Scotian Gold cooperative’s decision making to improve production and
-marketing for the apple industry.
-            </li>
-          </p>
-        </div>
-        
+          <li>
+            Converted large SQL queries into stored procedures, improving reporting performance.
+          </li>
+          <li>
+            Worked with the QA team to resolve the defects as part of the Sprint tasks.
+          </li>
+        </p>
       </div>
-    </main>
 
-    <footer id="main-footer">
-      Copyright &copy;
-      <script>
-        document.write(new Date().getFullYear());
-      </script>
-    </footer>
+      <div class="job job-3">
+        <h2>Research Assistant</h2>
+        <a href="https://aida.acadiau.ca/home.html" target="_blank"><span class="left text-secondary underline">Acadia
+            Institute for Data Analytics</span></a>
+        <span class="right text-secondary">08/2020 - 08/2021</span><br>
+        <span class="left text-secondary">Wolfville, Nova Scotia</span>​
+        <p>
+          Technologies: Python • Image processing • Computer Vision • TensorFlow • Keras • Linux • Bash
+          <li>
+            Image, video data collection and preparation for training deep learning model.
+          </li>
+          <li>
+            Pre-process image dataset using tools such as OpenCV, skimage etc.
+          </li>
+          <li>
+            Transfer learning and fine-tuning of pre-existing YOLOV3 model using MSCOCO dataset which improved the
+            efficiency of the deep learning model.
+          </li>
+          <li>
+            Acquire and build GPUs and install the necessary CUDA version and software driver.
+          </li>
+          <li>
+            Used tools like Tensorboard to evaluate CNN models while being trained.
+          </li>
+          <li>
+            Research and development in the field of apple yield prediction by using convolutional neural networks and
+            tracking algorithms.
+          </li>
+          <li>
+            Depth calculation of each detected apple using intel realsense depth camera.
+          </li>
+          <li>
+            Developed and implemented a deep learning model for apple detection and tracking, which helped Scotian Gold
+            cooperative's decision-making to improve production and marketing for the apple industry. The final
+            predictive model for apple detection had an AP (average precision) score of 90.72, the tracking model had an
+            MT (mostly tracked) score of 36.09, and the system counted apples with an F1 score of 94.97%.
+          </li>
+        </p>
+      </div>
 
-    <script src="js/main.js"></script>
-  </body>
+    </div>
+  </main>
+
+  <footer id="main-footer">
+    Copyright &copy;
+    <script>
+      document.write(new Date().getFullYear());
+    </script>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
 </html>

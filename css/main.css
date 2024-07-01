@@ -223,10 +223,10 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bio-image bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
-    grid-area: bioimage;
+    grid-area: bio-image;
     margin: auto;
     border-radius: 50%;
     border: #189bd8 3px solid; }
@@ -339,7 +339,7 @@ main {
       background-repeat: no-repeat;
       background-size: cover; }
   .about-info {
-    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+    grid-template-areas: "bio-image" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }

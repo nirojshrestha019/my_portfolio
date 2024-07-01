@@ -21,15 +21,18 @@
 
     @include easeOut;
   }
+
   @-webkit-keyframes glowing {
     0% {
       background-color: #b20000;
       -webkit-box-shadow: 0 0 4px #b20000;
     }
+
     50% {
       background-color: #ff0000;
       -webkit-box-shadow: 0 0 50px #ff0000;
     }
+
     100% {
       background-color: #b20000;
       -webkit-box-shadow: 0 0 4px #b20000;
@@ -41,10 +44,12 @@
       background-color: #b20000;
       -moz-box-shadow: 0 0 4px #b20000;
     }
+
     50% {
       background-color: #ff0000;
       -moz-box-shadow: 0 0 50px #ff0000;
     }
+
     100% {
       background-color: #b20000;
       -moz-box-shadow: 0 0 4px #b20000;
@@ -56,10 +61,12 @@
       background-color: #b20000;
       box-shadow: 0 0 4px #b20000;
     }
+
     50% {
       background-color: #ff0000;
       box-shadow: 0 0 50px #ff0000;
     }
+
     100% {
       background-color: #b20000;
       box-shadow: 0 0 4px #b20000;
@@ -71,10 +78,12 @@
       background-color: #b20000;
       box-shadow: 0 0 4px #b20000;
     }
+
     50% {
       background-color: #ff0000;
       box-shadow: 0 0 50px #ff0000;
     }
+
     100% {
       background-color: #b20000;
       box-shadow: 0 0 4px #b20000;
@@ -86,6 +95,7 @@
     transform: rotate(180deg);
 
     .btn-line {
+
       // Line 1 - Rotate
       &:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
@@ -176,7 +186,7 @@
       transform: translate3d(0, 0, 0);
     }
 
-    &.current > a {
+    &.current>a {
       color: $secondary-color;
     }
   }
